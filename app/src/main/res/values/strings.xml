@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CryptoCurrency Converter</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="bitcoin_conversion">Convert Bitcoin</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="ethereum_conversion">Convert Ethereum</string>
+
 </resources>

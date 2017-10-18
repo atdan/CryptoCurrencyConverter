@@ -16,8 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BitcoinConversion" />
-        <activity android:name=".EthereumConversion"></activity>
+        <activity android:name=".BitcoinConversion"
+            android:label="@string/bitcoin_conversion"/>
+        <activity android:name=".EthereumConversion"
+            android:label="@string/ethereum_conversion"></activity>
     </application>
 
 </manifest>
