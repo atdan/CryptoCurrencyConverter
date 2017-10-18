@@ -19,15 +19,30 @@
     <!-- ethereum label [CHAR LIMIT=40] -->
     <string name="eth_label">ETH</string>
 
+    <!-- convert button label [CHAR LIMIT=40] -->
+    <string name="button_label">CONVERT</string>
+
     <string-array name="currencies_arrays">
         <item>NGN</item>
         <item>GBP</item>
         <item>USD</item>
         <item>CAD</item>
         <item>JPY</item>
-        <item>RMB</item>
-        <item>CFA</item>
+        <item>CNY</item>
+        <item>XOF</item>
         <item>EUR</item>
+        <item>INR</item>
+        <item>AUD</item>
+        <item>AED</item>
+        <item>SGD</item>
+        <item>CHF</item>
+        <item>ZAR</item>
+        <item>GHS</item>
+        <item>ILS</item>
+        <item>NZD</item>
+        <item>MYR</item>
+        <item>BRL</item>
+        <item>ZWD</item>
     </string-array>
 
 </resources>
