@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,27 +7,28 @@
     tools:context="com.example.cstworkstation.cryptocurrencyconverter.MainActivity">
 
     <ImageView
-        android:src="@drawable/backgroung"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
+        android:alpha=".1"
         android:scaleType="centerCrop"
-        android:alpha=".1"/>
+        android:src="@drawable/backgroung" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:padding="5dp"
         tools:context="com.example.cstworkstation.cryptoexchangebycst.MainActivity">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="10dp"
             android:text="I want to convert"
-            android:textStyle="bold"
+            android:textAlignment="center"
             android:textColor="#A9A9A9"
             android:textSize="24sp"
-            android:textAlignment="center"
-            android:padding="10dp"/>
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,28 +45,28 @@
                     android:id="@+id/btc_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:fontFamily="sans-serif-light"
                     android:gravity="center_horizontal"
                     android:text="Bitcoin"
-                    android:textSize="40sp"
                     android:textColor="#000000"
-                    android:fontFamily="sans-serif-light"
-                    android:layout_marginBottom="24dp"/>
+                    android:textSize="40sp" />
 
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/bitcoin"
-                    android:scaleType="centerInside"
+                    android:onClick="openBitcoinConversion"
                     android:padding="10dp"
-                    android:onClick="openBitcoinConversion"/>
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bitcoin" />
 
             </LinearLayout>
 
             <View
                 android:layout_width="1dp"
                 android:layout_height="match_parent"
-                android:background="@android:color/darker_gray"/>
+                android:background="@android:color/darker_gray" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -79,21 +79,21 @@
                     android:id="@+id/eth_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:fontFamily="sans-serif-light"
                     android:gravity="center_horizontal"
                     android:text="Ethereum"
-                    android:textSize="40sp"
                     android:textColor="#000000"
-                    android:fontFamily="sans-serif-light"
-                    android:layout_marginBottom="24dp"/>
+                    android:textSize="40sp" />
 
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ethereum"
-                    android:scaleType="centerInside"
+                    android:onClick="openEthereumConversion"
                     android:padding="10dp"
-                    android:onClick="openEthereumConversion"/>
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ethereum" />
 
             </LinearLayout>
 

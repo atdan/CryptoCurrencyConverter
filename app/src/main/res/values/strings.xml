@@ -7,4 +7,27 @@
     <!-- Category name for phrases [CHAR LIMIT=20] -->
     <string name="ethereum_conversion">Convert Ethereum</string>
 
+    <!-- Own currency label [CHAR LIMIT=40] -->
+    <string name="what_you_have">I have</string>
+
+    <!-- Exchanged currency label [CHAR LIMIT=40] -->
+    <string name="what_you_get">I will get</string>
+
+    <!-- bitcoin label [CHAR LIMIT=40] -->
+    <string name="btc_label">BTC</string>
+
+    <!-- ethereum label [CHAR LIMIT=40] -->
+    <string name="eth_label">ETH</string>
+
+    <string-array name="currencies_arrays">
+        <item>NGN</item>
+        <item>GBP</item>
+        <item>USD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+        <item>RMB</item>
+        <item>CFA</item>
+        <item>EUR</item>
+    </string-array>
+
 </resources>
